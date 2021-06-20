@@ -1,0 +1,6 @@
+This Project Describes the use of LSB Steganography.
+Do check the python script written to implement lsb steganography
+
+#./stego -f <filename.png> -e <secret_message> -p <Password (Optional) > : To embed a secret message.
+#./stego -f < secretfile.png > -x -p < Password supplied > : To extract the secret message.
+#Note : Even if you passed a blank field in the -p argument,while creating a secret file, you must append a -p while extracting the message.
